@@ -43,7 +43,7 @@
   <rect width="830" height="320" rx="16" fill="#121614"/>
   
   <!-- Moving Grid overlay -->
-  <g class="moving-grid">
+  <g class = "hero-container" transform = "translate(80, 20)" >
     <rect width="830" height="360" y="-40" fill="url(#grid)"/>
   </g>
 
