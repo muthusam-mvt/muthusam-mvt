@@ -2,7 +2,7 @@
   <defs>
     <!-- Background Grid Pattern -->
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#111111" stroke-width="1"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1B221E" stroke-width="1"/>
     </pattern>
 
     <!-- Clip Path for typing animation -->
@@ -39,50 +39,50 @@
     </style>
   </defs>
 
-  <!-- Pure Black Background -->
-  <rect width="830" height="320" rx="16" fill="#000000"/>
+  <!-- Deep Forest Charcoal Background -->
+  <rect width="830" height="320" rx="16" fill="#121614"/>
   
   <!-- Moving Grid overlay -->
   <g class="moving-grid">
     <rect width="830" height="360" y="-40" fill="url(#grid)"/>
   </g>
 
-  <!-- Sleek Border using Purple Accent -->
-  <rect x="0.75" y="0.75" width="828.5" height="318.5" rx="15.25" stroke="#6944FF" stroke-width="1.5" style="mix-blend-mode: screen; opacity: 0.85;"/>
+  <!-- Sleek Border using Forest Slate -->
+  <rect x="0.75" y="0.75" width="828.5" height="318.5" rx="15.25" stroke="#222A26" stroke-width="1.5" style="mix-blend-mode: screen; opacity: 0.85;"/>
 
-  <!-- Floating accent background block (Purple) -->
-  <circle cx="750" cy="100" r="100" fill="#6944FF" fill-opacity="0.05" class="floating-accent" />
+  <!-- Floating accent background block (Champagne Gold aura) -->
+  <circle cx="750" cy="100" r="100" fill="#D4C4AE" fill-opacity="0.04" class="floating-accent" />
 
   <!-- Content Group -->
   <g class="hero-container" transform="translate(60, 0)">
-    <!-- Top Status Pill (Purple Accent) -->
+    <!-- Top Status Pill (Sage Green Accent) -->
     <g transform="translate(0, 48)">
-      <rect width="138" height="22" rx="11" fill="#000000" stroke="#6944FF" stroke-width="1" />
-      <circle cx="12" cy="11" r="3.5" fill="#6944FF">
+      <rect width="138" height="22" rx="11" fill="#121614" stroke="#C8D3C5" stroke-width="1" />
+      <circle cx="12" cy="11" r="3.5" fill="#C8D3C5">
         <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
       </circle>
-      <text x="24" y="15" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">CREATIVE BUILDER</text>
+      <text x="24" y="15" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="700" letter-spacing="1.5">CREATIVE BUILDER</text>
     </g>
 
-    <!-- Title (Pure White) -->
-    <text x="0" y="112" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Outfit', 'Segoe UI', sans-serif" font-size="36" font-weight="800" letter-spacing="-0.5px">
+    <!-- Title (Off-White Chalk) -->
+    <text x="0" y="112" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Outfit', 'Segoe UI', sans-serif" font-size="36" font-weight="800" letter-spacing="-0.5px">
       MUTHUSAM THEVAR
     </text>
 
     <!-- Subtitle (Editorial Style with '//' dividers) -->
-    <text x="0" y="148" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" letter-spacing="1">
-      COMPUTER ENGINEERING STUDENT <tspan fill="#6944FF">//</tspan> FULL-STACK DEVELOPER <tspan fill="#6944FF">//</tspan> UI/UX DESIGNER
+    <text x="0" y="148" fill="#D4C4AE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600" letter-spacing="1">
+      COMPUTER ENGINEERING STUDENT <tspan fill="#C8D3C5">//</tspan> FULL-STACK DEVELOPER <tspan fill="#C8D3C5">//</tspan> UI/UX DESIGNER
     </text>
 
     <!-- Tagline (With typing animation) -->
     <g transform="translate(0, 185)">
       <g clip-path="url(#clip-tagline)">
-        <text x="0" y="20" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" letter-spacing="0.5">
+        <text x="0" y="20" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="400" letter-spacing="0.5">
           Building products that solve real problems through design and code.
         </text>
       </g>
       <!-- Blinking Cursor -->
-      <rect x="0" y="4" width="2" height="20" fill="#6944FF">
+      <rect x="0" y="4" width="2" height="20" fill="#D4C4AE">
         <animate attributeName="x" from="0" to="580" dur="3s" begin="0.8s" fill="freeze" keyTimes="0;1" keySplines="0.16 1 0.3 1" calcMode="spline" />
         <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
       </rect>
@@ -91,22 +91,22 @@
     <!-- Quick Stats Row (Nothing / Vercel style) -->
     <g transform="translate(0, 240)">
       <!-- Stat 1 -->
-      <text x="0" y="15" fill="#6944FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">ROLE</text>
-      <text x="0" y="32" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Co-Founder @ AbhiyantriX</text>
+      <text x="0" y="15" fill="#D4C4AE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">ROLE</text>
+      <text x="0" y="32" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Co-Founder @ AbhiyantriX</text>
 
       <!-- Divider line -->
-      <line x1="210" y1="5" x2="210" y2="35" stroke="#111111" stroke-width="1.5"/>
+      <line x1="210" y1="5" x2="210" y2="35" stroke="#222A26" stroke-width="1.5"/>
 
       <!-- Stat 2 -->
-      <text x="230" y="15" fill="#6944FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">LOCATION</text>
-      <text x="230" y="32" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Thane, MH, India</text>
+      <text x="230" y="15" fill="#D4C4AE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">LOCATION</text>
+      <text x="230" y="32" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Thane, MH, India</text>
 
       <!-- Divider line -->
-      <line x1="410" y1="5" x2="410" y2="35" stroke="#111111" stroke-width="1.5"/>
+      <line x1="410" y1="5" x2="410" y2="35" stroke="#222A26" stroke-width="1.5"/>
 
       <!-- Stat 3 -->
-      <text x="430" y="15" fill="#6944FF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">EDUCATION</text>
-      <text x="430" y="32" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Xavier Institute of Engineering</text>
+      <text x="430" y="15" fill="#D4C4AE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">EDUCATION</text>
+      <text x="430" y="32" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500">Xavier Institute of Engineering</text>
     </g>
   </g>
 </svg>

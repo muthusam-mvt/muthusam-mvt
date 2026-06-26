@@ -13,33 +13,33 @@
       }
       .card-container:hover {
         transform: translateY(-3px);
-        filter: drop-shadow(0 4px 8px rgba(0, 230, 114, 0.15));
+        filter: drop-shadow(0 4px 8px rgba(200, 211, 197, 0.15));
       }
     </style>
   </defs>
 
   <g class="card-container">
-    <!-- Background with Green Accent Border -->
-    <rect width="260" height="130" rx="10" fill="#000000" stroke="#00E672" stroke-width="1.5" />
+    <!-- Background with Sage Accent Border -->
+    <rect width="260" height="130" rx="10" fill="#121614" stroke="#C8D3C5" stroke-width="1.5" />
 
     <!-- Trophy Icon (Vector) -->
     <g transform="translate(20, 20)">
-      <path d="M4 2 H16 V6 C16 9.3 13.3 12 10 12 H10 C6.7 12 4 9.3 4 6 Z" stroke="#00E672" stroke-width="1.5" fill="none"/>
-      <path d="M10 12 V16 M7 16 H13" stroke="#00E672" stroke-width="1.5" />
+      <path d="M4 2 H16 V6 C16 9.3 13.3 12 10 12 H10 C6.7 12 4 9.3 4 6 Z" stroke="#D4C4AE" stroke-width="1.5" fill="none"/>
+      <path d="M10 12 V16 M7 16 H13" stroke="#D4C4AE" stroke-width="1.5" />
     </g>
 
     <!-- Year in Top Right -->
-    <text x="240" y="32" text-anchor="end" fill="#00E672" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">
+    <text x="240" y="32" text-anchor="end" fill="#D4C4AE" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">
       2026
     </text>
 
     <!-- Result Line 1 -->
-    <text x="20" y="76" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="-0.3px">
+    <text x="20" y="76" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="-0.3px">
       🥈 2nd Place — CodeCraft
     </text>
 
     <!-- Result Line 2 -->
-    <text x="20" y="98" fill="#FFFFFF" fill-opacity="0.7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
+    <text x="20" y="98" fill="#F4F3EF" fill-opacity="0.7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
       🏁 Finalist — Technova
     </text>
   </g>
