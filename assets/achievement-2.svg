@@ -1,25 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="260" height="130" viewBox="0 0 260 130" fill="none">
-  <!-- Background with Sky Blue Accent Border -->
-  <rect width="260" height="130" rx="10" fill="#090D16" stroke="#38BDF8" stroke-width="1.5" />
+  <defs>
+    <style>
+      @keyframes slideUpFade {
+        from { opacity: 0; transform: translateY(12px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .card-container {
+        opacity: 0;
+        animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        animation-delay: 1.6s;
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s;
+      }
+      .card-container:hover {
+        transform: translateY(-3px);
+        filter: drop-shadow(0 4px 8px rgba(0, 230, 114, 0.15));
+      }
+    </style>
+  </defs>
 
-  <!-- Medal Icon (Vector) -->
-  <g transform="translate(20, 20)">
-    <circle cx="10" cy="12" r="6" stroke="#38BDF8" stroke-width="1.5" fill="none"/>
-    <path d="M6 6 L10 0 L14 6" stroke="#38BDF8" stroke-width="1.5" stroke-linejoin="round"/>
+  <g class="card-container">
+    <!-- Background with Green Accent Border -->
+    <rect width="260" height="130" rx="10" fill="#000000" stroke="#00E672" stroke-width="1.5" />
+
+    <!-- Medal Icon (Vector) -->
+    <g transform="translate(20, 20)">
+      <circle cx="10" cy="12" r="6" stroke="#00E672" stroke-width="1.5" fill="none"/>
+      <path d="M6 6 L10 0 L14 6" stroke="#00E672" stroke-width="1.5" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Year in Top Right -->
+    <text x="240" y="32" text-anchor="end" fill="#00E672" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">
+      2025-26
+    </text>
+
+    <!-- Result Line 1 -->
+    <text x="20" y="76" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="-0.3px">
+      🚀 SIH 2025 — College Level
+    </text>
+
+    <!-- Result Line 2 -->
+    <text x="20" y="98" fill="#FFFFFF" fill-opacity="0.7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
+      💻 Participant — KJSIT INTECH
+    </text>
   </g>
-
-  <!-- Year in Top Right -->
-  <text x="240" y="32" text-anchor="end" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">
-    2025-26
-  </text>
-
-  <!-- Result Line 1 -->
-  <text x="20" y="76" fill="#F4F6F8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="-0.3px">
-    🚀 SIH 2025 — College Selection
-  </text>
-
-  <!-- Result Line 2 -->
-  <text x="20" y="98" fill="#8E9BB0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
-    💻 Participant — KJSIT INTECH
-  </text>
 </svg>

@@ -1,26 +1,27 @@
 <!--
 ================================================================================
-PREMIUM GITHUB PROFILE README (BLUE + WHITE + DARK THEME)
+PREMIUM GITHUB PROFILE README (BLACK + WHITE + NEON THEME)
 Handcrafted by Antigravity (Google DeepMind)
 ================================================================================
 Color Palette Reference:
-- Dark Base: #090D16 (Deep Obsidian Blue)
-- Light Neutral: #F4F6F8 (Warm White)
-- Primary Accent: #2A64F6 (Electric Slate Blue)
-- Secondary Accent: #38BDF8 (Sky Blue)
-- Secondary Text: #8E9BB0 (Slate Gray)
+- Background: #000000 (Mostly Black)
+- Text: #FFFFFF (White)
+- Primary Purple Accent: #6944FF
+- Pink Accent: #FF80EE
+- Orange Accent: #FF6500
+- Green Accent: #00E672
 ================================================================================
 -->
 
 <div align="center">
-  <!-- Hero Banner SVG -->
+  <!-- Hero Banner SVG (Immediate load transition) -->
   <img src="./assets/hero.svg" width="830" alt="Muthusam Thevar - Hero Banner" />
 </div>
 
 <br />
 
 <div align="center">
-  <!-- Custom Navigation Buttons -->
+  <!-- Custom Navigation Buttons (Loaded at 0.2s delay) -->
   <a href="https://github.com/muthusam-mvt"><img src="./assets/buttons/github.svg" height="28" alt="GitHub" /></a>&nbsp;
   <a href="https://www.linkedin.com/in/muthusam-thevar-422559399/"><img src="./assets/buttons/linkedin.svg" height="28" alt="LinkedIn" /></a>&nbsp;
   <a href="https://www.instagram.com/msam_mvt/"><img src="./assets/buttons/instagram.svg" height="28" alt="Instagram" /></a>&nbsp;
@@ -30,22 +31,22 @@ Color Palette Reference:
 
 <br />
 
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 
-### INTRODUCTION
+### <font color="#FFFFFF">INTRODUCTION</font>
 
 I am a Computer Engineering student passionate about building scalable full-stack applications, intuitive user experiences, and impactful student communities. I enjoy transforming ideas into real products using modern technologies while continuously learning new tools and frameworks. Alongside development, I actively mentor students, organize technical initiatives, and contribute to engineering communities.
 
 <br />
 
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 
-### ABOUT ME
+### <font color="#6944FF">ABOUT ME</font>
 
 <table width="100%">
   <tr>
     <td width="33%" valign="top">
-      <h4>Current Focus</h4>
+      <h4><font color="#6944FF">Current Focus</font></h4>
       <ul>
         <li>Building Full Stack Applications</li>
         <li>Learning scalable backend architecture</li>
@@ -55,7 +56,7 @@ I am a Computer Engineering student passionate about building scalable full-stac
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h4>Currently Learning</h4>
+      <h4><font color="#6944FF">Currently Learning</font></h4>
       <ul>
         <li>Advanced React</li>
         <li>System Design</li>
@@ -64,7 +65,7 @@ I am a Computer Engineering student passionate about building scalable full-stac
       </ul>
     </td>
     <td width="33%" valign="top">
-      <h4>Looking For</h4>
+      <h4><font color="#6944FF">Looking For</font></h4>
       <ul>
         <li>Open Source Collaboration</li>
         <li>Internship Opportunities</li>
@@ -85,9 +86,9 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 
-### TECH STACK
+### <font color="#FF80EE">TECH STACK</font>
 
 <div align="center">
   <table width="100%">
@@ -120,12 +121,12 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 
-### FEATURED PROJECTS
+### <font color="#FF6500">FEATURED PROJECTS</font>
 
 <div align="center">
-  <!-- Project 1 -->
+  <!-- Project 1 (Loaded at 0.6s delay) -->
   <a href="https://github.com/muthusam-mvt/smart-campus-connect">
     <img src="./assets/project-smart-campus.svg" width="830" alt="Smart Campus Connect Card" />
   </a>
@@ -136,7 +137,7 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
   <br />
 
-  <!-- Project 2 -->
+  <!-- Project 2 (Loaded at 0.8s delay) -->
   <a href="https://editverse-ai.vercel.app">
     <img src="./assets/project-editverse.svg" width="830" alt="EditVerse AI Card" />
   </a>
@@ -147,7 +148,7 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
   <br />
 
-  <!-- Project 3 -->
+  <!-- Project 3 (Loaded at 1.0s delay) -->
   <a href="https://github.com/muthusam-mvt/image-editing-desktop-app">
     <img src="./assets/project-image-editor.svg" width="830" alt="Image Editing Desktop Application Card" />
   </a>
@@ -159,55 +160,55 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 
-### LEADERSHIP
+### <font color="#6944FF">LEADERSHIP</font>
 
 <div align="center">
-  <!-- Leadership Timeline SVG -->
+  <!-- Leadership Timeline SVG (Loaded at 1.2s delay) -->
   <img src="./assets/timeline.svg" width="830" alt="Leadership Timeline" />
 </div>
 
 <br />
 
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 
-### ACHIEVEMENTS
+### <font color="#00E672">ACHIEVEMENTS</font>
 
 <div align="center">
-  <!-- Achievement Cards Row -->
-  <img src="./assets/achievement-1.svg" width="270" alt="Competitions" />
+  <!-- Achievement Cards Row (Staggered at 1.4s, 1.6s, 1.8s delays) -->
+  <img src="./assets/achievement-1.svg" width="270" alt="CodeCraft & Technova" />
   <img src="./assets/achievement-2.svg" width="270" alt="SIH & INTECH" />
-  <img src="./assets/achievement-3.svg" width="270" alt="Hackathons" />
+  <img src="./assets/achievement-3.svg" width="270" alt="Pragati & Saavishkar" />
 </div>
 
 <br />
 
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 
-### DASHBOARD STATS
+### <font color="#FFFFFF">DASHBOARD STATS</font>
 
 <div align="center">
-  <!-- Custom Styled GitHub Stats Widgets (Blue/White/Dark Theme) -->
+  <!-- Custom Styled GitHub Stats Widgets (Black/White/Purple Theme) -->
   <table width="100%">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=muthusam-mvt&show_icons=true&theme=dark&bg_color=090D16&title_color=38BDF8&text_color=F4F6F8&icon_color=2A64F6&border_color=2A64F6" width="395" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=muthusam-mvt&show_icons=true&theme=dark&bg_color=000000&title_color=6944FF&text_color=FFFFFF&icon_color=FF6500&border_color=6944FF" width="395" alt="GitHub Stats" />
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muthusam-mvt&layout=compact&theme=dark&bg_color=090D16&title_color=38BDF8&text_color=F4F6F8&icon_color=2A64F6&border_color=2A64F6" width="395" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muthusam-mvt&layout=compact&theme=dark&bg_color=000000&title_color=FF80EE&text_color=FFFFFF&icon_color=00E672&border_color=FF80EE" width="395" alt="Top Languages" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
         <br />
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=muthusam-mvt&theme=dark&background=090D16&fire=38BDF8&ring=2A64F6&currStreakNum=38BDF8&currStreakLabel=F4F6F8&sideNums=F4F6F8&sideLabels=F4F6F8&dates=F4F6F8&border=2A64F6" width="800" alt="GitHub Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=muthusam-mvt&theme=dark&background=000000&fire=FF6500&ring=6944FF&currStreakNum=FF80EE&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=FFFFFF&border=6944FF" width="800" alt="GitHub Streak Stats" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
         <br />
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=muthusam-mvt&bg_color=090D16&color=38BDF8&line=2A64F6&point=F4F6F8&area=true&hide_border=false&border_color=2A64F6" width="800" alt="GitHub Activity Graph" />
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=muthusam-mvt&bg_color=000000&color=00E672&line=6944FF&point=FF80EE&area=true&hide_border=false&border_color=6944FF" width="800" alt="GitHub Activity Graph" />
       </td>
     </tr>
     <tr>
@@ -221,7 +222,7 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 
 <!-- Spotify Widget Placeholder (Commented Out)
 <div align="center">
@@ -231,13 +232,13 @@ I am a Computer Engineering student passionate about building scalable full-stac
   </a>
 </div>
 <br />
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 -->
 
-### CONNECT
+### <font color="#FFFFFF">CONNECT</font>
 
 <div align="center">
-  <!-- Connect Cards Row -->
+  <!-- Connect Cards Row (Loaded at 2.0s delay) -->
   <a href="https://www.linkedin.com/in/muthusam-thevar-422559399/"><img src="./assets/connect-linkedin.svg" width="195" alt="LinkedIn Card" /></a>
   <a href="https://www.instagram.com/msam_mvt/"><img src="./assets/connect-instagram.svg" width="195" alt="Instagram Card" /></a>
   <a href="mailto:muthusamthevar@gmail.com"><img src="./assets/connect-email.svg" width="195" alt="Email Card" /></a>
@@ -246,9 +247,9 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#131C30" />
+<hr stroke="#111111" />
 
-### FOOTER
+### <font color="#FFFFFF">FOOTER</font>
 
 <div align="center">
   <p>Thanks for visiting.</p>
@@ -256,63 +257,15 @@ I am a Computer Engineering student passionate about building scalable full-stac
   
   <br />
   
-  <!-- Steve Jobs Quote (Premium static quote block instead of slow/unstable APIs) -->
+  <!-- Steve Jobs Quote (Premium static quote block) -->
   <blockquote>
     "Design is not just what it looks like and feels like. Design is how it works."
   </blockquote>
   
   <br />
 
-  <!-- Visitor Counter badge using Theme colors -->
-  <img src="https://komarev.com/ghpvc/?username=muthusam-mvt&color=38bdf8&style=flat-square&label=Profile+Views" alt="Profile Views Counter" />
-  
-  <br /><br />
-
-  <!-- Contribution Snake (Generated via github action output) -->
-  <img src="https://raw.githubusercontent.com/muthusam-mvt/muthusam-mvt/output/github-contribution-grid-snake-dark.svg" width="830" alt="Contribution Snake" />
+  <!-- Visitor Counter badge using Purple Accent -->
+  <img src="https://komarev.com/ghpvc/?username=muthusam-mvt&color=6944ff&style=flat-square&label=Profile+Views" alt="Profile Views Counter" />
 </div>
 
 <br />
-
-<!--
-================================================================================
-CONTRIBUTION SNAKE AUTOMATION GUIDE
-================================================================================
-To animate the Contribution Snake shown above, add this workflow to your repo:
-File Path: .github/workflows/snake.yml
-
-name: Generate Snake Game
-
-on:
-  schedule:
-    - cron: "0 */12 * * *" # Runs every 12 hours
-  workflow_dispatch:
-  push:
-    branches:
-    - main
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
-    steps:
-      - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-      - name: Push github-contribution-grid-snake.svg to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-================================================================================
--->
