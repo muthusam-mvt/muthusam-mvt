@@ -132,14 +132,6 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#222A26" />
-
-### <font color="#C8D3C5">DEVELOPER MILESTONES</font>
-
-<div align="center">
-  <!-- Custom Milestones Widget (Loaded at 1.9s delay) -->
-  <img src="./assets/milestones.svg" width="830" alt="Developer Milestones" />
-</div>
 
 <br />
 
