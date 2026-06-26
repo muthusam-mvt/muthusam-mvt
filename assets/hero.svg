@@ -54,7 +54,7 @@
   <circle cx="750" cy="120" r="120" fill="#D4C4AE" fill-opacity="0.03" class="floating-accent" />
 
   <!-- Content Group -->
-  <g class="hero-container" transform="translate(60, 0)">
+  <g class="hero-container" transform="translate(90, 20)">
     <!-- Top Status Pill (Champagne Gold Accent) -->
     <g transform="translate(0, 48)">
       <rect width="138" height="22" rx="11" fill="#121614" stroke="#D4C4AE" stroke-width="1.2" />
