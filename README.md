@@ -269,7 +269,7 @@ I am a Computer Engineering student passionate about building scalable full-stac
   <br /><br />
 
   <!-- Contribution Snake (Generated via github action output) -->
-  <img src="https://raw.githubusercontent.com/muthusam-mvt/muthusam-mvt/output/github-contribution-grid-snake.svg" width="830" alt="Contribution Snake" />
+  <img src="https://raw.githubusercontent.com/muthusam-mvt/muthusam-mvt/output/github-contribution-grid-snake-dark.svg" width="830" alt="Contribution Snake" />
 </div>
 
 <br />
