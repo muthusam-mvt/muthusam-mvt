@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="240" viewBox="0 0 830 240" fill="none">
+  <!-- Dark Obsidian Background with Electric Blue Border -->
+  <rect width="830" height="240" rx="12" fill="#090D16" stroke="#2A64F6" stroke-width="1.5" />
+  
+  <!-- Subtle Background Grid lines -->
+  <line x1="120" y1="0" x2="120" y2="240" stroke="#131C30" stroke-dasharray="4 4" />
+
+  <!-- Vertical Timeline Line -->
+  <line x1="120" y1="35" x2="120" y2="205" stroke="#2A64F6" stroke-width="2" />
+
+  <!-- CSI Timeline Node (Sky Blue) -->
+  <circle cx="120" cy="155" r="7" fill="#090D16" stroke="#38BDF8" stroke-width="3" />
+  <!-- AbhiyantriX Timeline Node (Electric Blue) -->
+  <circle cx="120" cy="75" r="7" fill="#090D16" stroke="#2A64F6" stroke-width="3" />
+
+  <!-- Timeline Entry 1: AbhiyantriX -->
+  <!-- Left Side: Dates -->
+  <text x="30" y="80" fill="#F4F6F8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5px">
+    2026 - PRES
+  </text>
+  <!-- Right Side: Details -->
+  <text x="150" y="72" fill="#F4F6F8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="-0.3px">
+    Co-Founder
+    <tspan fill="#2A64F6" font-weight="600">@ AbhiyantriX</tspan>
+  </text>
+  <text x="150" y="92" fill="#8E9BB0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
+    Helping engineering students escape tutorial hell via project-based learning path design and technical workshops.
+  </text>
+
+  <!-- Timeline Entry 2: CSI -->
+  <!-- Left Side: Dates -->
+  <text x="30" y="160" fill="#F4F6F8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5px">
+    2024 - PRES
+  </text>
+  <!-- Right Side: Details -->
+  <text x="150" y="152" fill="#F4F6F8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="-0.3px">
+    Graphics Head
+    <tspan fill="#38BDF8" font-weight="600">@ CSI Student Chapter</tspan>
+  </text>
+  <text x="150" y="172" fill="#8E9BB0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
+    Designed visual identity, marketing poster branding, and graphic elements for local chapter technical initiatives.
+  </text>
+</svg>
