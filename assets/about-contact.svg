@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="70" viewBox="0 0 830 70" fill="none">
+  <defs>
+    <style>
+      @keyframes slideUpFade {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      .contact-container {
+        opacity: 0;
+        animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        animation-delay: 0.4s;
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s;
+      }
+      .contact-container:hover {
+        transform: translateY(-2px);
+        filter: drop-shadow(0 4px 8px rgba(99, 102, 241, 0.15));
+      }
+      .bg { fill: #0D1117; stroke: #1E293B; stroke-width: 1.5; rx: 10px; }
+      .label { fill: #94A3B8; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; }
+      .val { fill: #FFFFFF; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 500; }
+      .icon { fill: #38BDF8; }
+    </style>
+  </defs>
+
+  <g class="contact-container" transform="translate(10, 5)">
+    <rect width="810" height="60" class="bg"/>
+
+    <!-- Location Column -->
+    <g transform="translate(30, 15)">
+      <!-- Map Pin Icon -->
+      <path class="icon" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" transform="scale(0.9)" />
+      <text x="30" y="12" class="label">LOCATION</text>
+      <text x="30" y="28" class="val">Thane, Maharashtra, India</text>
+    </g>
+
+    <!-- Vertical separator -->
+    <line x1="280" y1="12" x2="280" y2="48" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Email Column -->
+    <g transform="translate(310, 15)">
+      <!-- Envelope Icon -->
+      <path class="icon" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" transform="scale(0.9)" />
+      <text x="30" y="12" class="label">EMAIL</text>
+      <text x="30" y="28" class="val">muthusamthevar@gmail.com</text>
+    </g>
+
+    <!-- Vertical separator -->
+    <line x1="560" y1="12" x2="560" y2="48" stroke="#1E293B" stroke-width="1" />
+
+    <!-- Portfolio Column -->
+    <g transform="translate(590, 15)">
+      <!-- Globe Icon -->
+      <path class="icon" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.53c-.26-.81-1-1.4-1.9-1.4h-1v-3c0-.55-.45-1-1-1h-6v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.4z" transform="scale(0.9)" />
+      <text x="30" y="12" class="label">PORTFOLIO</text>
+      <text x="30" y="28" class="val">portfolio-site-coming-soon</text>
+    </g>
+  </g>
+</svg>

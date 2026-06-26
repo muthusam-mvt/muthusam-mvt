@@ -9,54 +9,65 @@
         opacity: 0;
         animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         animation-delay: 1.2s;
-        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s;
       }
       .timeline-container:hover {
         transform: translateY(-2px);
+        filter: drop-shadow(0 4px 10px rgba(99, 102, 241, 0.15));
+      }
+      .timeline-container:hover .card {
+        stroke: #6366F1;
+      }
+      .card {
+        fill: #0D1117;
+        stroke: #1E293B;
+        stroke-width: 1.5;
+        rx: 12px;
+        transition: stroke 0.3s;
       }
     </style>
   </defs>
 
   <g class="timeline-container">
     <!-- Forest Charcoal Background with Forest Slate Border -->
-    <rect width="830" height="240" rx="12" fill="#121614" stroke="#222A26" stroke-width="1.5" />
+    <rect width="830" height="240" class="card" />
     
     <!-- Subtle Background Grid lines -->
-    <line x1="120" y1="0" x2="120" y2="240" stroke="#1B221E" stroke-dasharray="4 4" />
+    <line x1="120" y1="0" x2="120" y2="240" stroke="#1E293B" stroke-dasharray="4 4" stroke-opacity="0.3" />
 
     <!-- Vertical Timeline Line -->
-    <line x1="120" y1="35" x2="120" y2="205" stroke="#222A26" stroke-width="2" />
+    <line x1="120" y1="35" x2="120" y2="205" stroke="#1E293B" stroke-width="2" />
 
-    <!-- CSI Timeline Node (Champagne Gold) -->
-    <circle cx="120" cy="155" r="7" fill="#121614" stroke="#D4C4AE" stroke-width="3" />
-    <!-- AbhiyantriX Timeline Node (Champagne Gold) -->
-    <circle cx="120" cy="75" r="7" fill="#121614" stroke="#D4C4AE" stroke-width="3" />
+    <!-- CSI Timeline Node (Cyan) -->
+    <circle cx="120" cy="155" r="7" fill="#0D1117" stroke="#38BDF8" stroke-width="3" />
+    <!-- AbhiyantriX Timeline Node (Purple) -->
+    <circle cx="120" cy="75" r="7" fill="#0D1117" stroke="#6366F1" stroke-width="3" />
 
     <!-- Timeline Entry 1: AbhiyantriX -->
     <!-- Left Side: Dates -->
-    <text x="30" y="80" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5px">
+    <text x="30" y="80" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5px">
       2026 - PRES
     </text>
     <!-- Right Side: Details -->
-    <text x="150" y="72" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="-0.3px">
+    <text x="150" y="72" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="-0.3px">
       Co-Founder
-      <tspan fill="#D4C4AE" font-weight="600">@ AbhiyantriX</tspan>
+      <tspan fill="#6366F1" font-weight="600">@ AbhiyantriX</tspan>
     </text>
-    <text x="150" y="92" fill="#F4F3EF" fill-opacity="0.7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
+    <text x="150" y="92" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
       Helping engineering students escape tutorial hell via project-based learning paths and hackathon bootcamps.
     </text>
 
     <!-- Timeline Entry 2: CSI -->
     <!-- Left Side: Dates -->
-    <text x="30" y="160" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5px">
+    <text x="30" y="160" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5px">
       2024 - PRES
     </text>
     <!-- Right Side: Details -->
-    <text x="150" y="152" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="-0.3px">
+    <text x="150" y="152" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="700" letter-spacing="-0.3px">
       Graphics Head
-      <tspan fill="#D4C4AE" font-weight="600">@ CSI Student Chapter</tspan>
+      <tspan fill="#38BDF8" font-weight="600">@ CSI Student Chapter</tspan>
     </text>
-    <text x="150" y="172" fill="#F4F3EF" fill-opacity="0.7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
+    <text x="150" y="172" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400">
       Leading design Chapter initiatives, posters, marketing creatives, and branding for all technical events.
     </text>
   </g>

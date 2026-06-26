@@ -1,14 +1,16 @@
 <!--
 ================================================================================
-PREMIUM GITHUB PROFILE README (NORDIC MOSS & CHAMPAGNE THEME)
+PREMIUM GITHUB PROFILE README (CYBER-MINIMAL THEME)
 Handcrafted by Antigravity (Google DeepMind)
 ================================================================================
 Color Palette Reference:
-- Background: #121614 (Deep Forest Charcoal)
-- Text: #F4F3EF (Chalk White)
-- Primary Accent: #D4C4AE (Champagne Gold)
-- Secondary Accent: #C8D3C5 (Sage Green)
-- Subtle Borders: #222A26 (Forest Slate)
+- Background: #080B10 (Midnight Obsidian Void)
+- Elevated Card Fill: #0D1117 (Deep Vercel Slate)
+- Primary Accent: #38BDF8 (Sky Blue / Electric Cyan)
+- Secondary Accent: #6366F1 (Indigo Glow)
+- Muted Slate Borders: #1E293B (Low Opacity Border)
+- Text Primary: #FFFFFF (Alabaster White)
+- Text Secondary: #94A3B8 (Cool Slate)
 ================================================================================
 -->
 
@@ -30,107 +32,56 @@ Color Palette Reference:
 
 <br />
 
-<hr stroke="#222A26" />
+<hr stroke="#1E293B" />
 
-### <font color="#F4F3EF">INTRODUCTION</font>
+### <font color="#FFFFFF">INTRODUCTION</font>
 
 I am a Computer Engineering student passionate about building scalable full-stack applications, intuitive user experiences, and impactful student communities. I enjoy transforming ideas into real products using modern technologies while continuously learning new tools and frameworks. Alongside development, I actively mentor students, organize technical initiatives, and contribute to engineering communities.
 
 <br />
 
-<hr stroke="#222A26" />
+<hr stroke="#1E293B" />
 
-### <font color="#C8D3C5">ABOUT ME</font>
-
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top">
-      <h4><font color="#D4C4AE">Current Focus</font></h4>
-      <ul>
-        <li>Building Full Stack Applications</li>
-        <li>Learning scalable backend architecture</li>
-        <li>Exploring AI integrations</li>
-        <li>UI/UX Design</li>
-        <li>Open Source</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h4><font color="#D4C4AE">Currently Learning</font></h4>
-      <ul>
-        <li>Advanced React</li>
-        <li>System Design</li>
-        <li>DevOps</li>
-        <li>Cloud Deployment</li>
-      </ul>
-    </td>
-    <td width="33%" valign="top">
-      <h4><font color="#D4C4AE">Looking For</font></h4>
-      <ul>
-        <li>Open Source Collaboration</li>
-        <li>Internship Opportunities</li>
-        <li>Hackathons</li>
-        <li>Exciting Projects</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-| Dimension | Value |
-| :--- | :--- |
-| **Location** | Thane, Maharashtra, India |
-| **Email** | [muthusamthevar@gmail.com](mailto:muthusamthevar@gmail.com) |
-| **Portfolio** | *[Portfolio Site Coming Soon]* |
-
-<br />
-
-<hr stroke="#222A26" />
-
-### <font color="#D4C4AE">TECH STACK</font>
+### <font color="#6366F1">ABOUT ME</font>
 
 <div align="center">
-  <table width="100%">
-    <tr>
-      <td width="20%"><b>Languages</b></td>
-      <td><img src="https://skillicons.dev/icons?i=py,java,js,html,css,dart&theme=dark" height="36" alt="Languages" /></td>
-    </tr>
-    <tr>
-      <td><b>Frontend</b></td>
-      <td><img src="https://skillicons.dev/icons?i=react,flutter,tailwind&theme=dark" height="36" alt="Frontend" /></td>
-    </tr>
-    <tr>
-      <td><b>Backend</b></td>
-      <td><img src="https://skillicons.dev/icons?i=fastapi,nodejs&theme=dark" height="36" alt="Backend" /> &nbsp; <i>REST APIs</i></td>
-    </tr>
-    <tr>
-      <td><b>Database</b></td>
-      <td><img src="https://skillicons.dev/icons?i=mongodb,firebase&theme=dark" height="36" alt="Database" /></td>
-    </tr>
-    <tr>
-      <td><b>Tools</b></td>
-      <td><img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,postman,figma,ps,ai,canva&theme=dark" height="36" alt="Tools" /></td>
-    </tr>
-    <tr>
-      <td><b>Learning</b></td>
-      <td><img src="https://skillicons.dev/icons?i=docker,aws&theme=dark" height="36" alt="Learning" /> &nbsp; <i>System Design</i></td>
-    </tr>
-  </table>
+  <!-- About Cards Row (Loaded at 0.3s delay) -->
+  <img src="./assets/about-cards.svg" width="830" alt="About Me Focus, Learning and Looking For" />
+  <br /><br />
+  <!-- About Contact Panel (Loaded at 0.4s delay) -->
+  <img src="./assets/about-contact.svg" width="830" alt="Contact Information" />
 </div>
 
 <br />
 
-<hr stroke="#222A26" />
+<hr stroke="#1E293B" />
 
-### <font color="#C8D3C5">FEATURED PROJECTS</font>
+### <font color="#38BDF8">TECH STACK</font>
+
+<br />
+
+| Category | Technologies |
+| :--- | :--- |
+| **Languages** | <img src="https://skillicons.dev/icons?i=py,java,js,html,css,dart&theme=dark" height="36" alt="Languages" /> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,flutter,tailwind&theme=dark" height="36" alt="Frontend" /> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=fastapi,nodejs&theme=dark" height="36" alt="Backend" /> |
+| **Database** | <img src="https://skillicons.dev/icons?i=mongodb,firebase&theme=dark" height="36" alt="Database" /> |
+| **Tools** | <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,postman,figma,ps,ai,canva&theme=dark" height="36" alt="Tools" /> |
+| **Learning** | <img src="https://skillicons.dev/icons?i=docker,aws&theme=dark" height="36" alt="Learning" /> |
+
+<br />
+
+<hr stroke="#1E293B" />
+
+### <font color="#6366F1">FEATURED PROJECTS</font>
 
 <div align="center">
   <!-- Project 1 (Loaded at 0.6s delay) -->
   <a href="https://github.com/muthusam-mvt/smart-campus-connect">
     <img src="./assets/project-smart-campus.svg" width="830" alt="Smart Campus Connect Card" />
   </a>
-  <p align="right">
-    <a href="https://github.com/muthusam-mvt/smart-campus-connect">Repository</a> &nbsp;//&nbsp; 
+  <p align="center">
+    <a href="https://github.com/muthusam-mvt/smart-campus-connect">Repository</a> &nbsp;•&nbsp; 
     <a href="https://github.com/muthusam-mvt/smart-campus-connect">Live Demo</a>
   </p>
 
@@ -140,8 +91,8 @@ I am a Computer Engineering student passionate about building scalable full-stac
   <a href="https://editverse-ai.vercel.app">
     <img src="./assets/project-editverse.svg" width="830" alt="EditVerse AI Card" />
   </a>
-  <p align="right">
-    <a href="https://github.com/muthusam-mvt/editverse-ai">Repository</a> &nbsp;//&nbsp; 
+  <p align="center">
+    <a href="https://github.com/muthusam-mvt/editverse-ai">Repository</a> &nbsp;•&nbsp; 
     <a href="https://editverse-ai.vercel.app">Live Demo</a>
   </p>
 
@@ -151,17 +102,17 @@ I am a Computer Engineering student passionate about building scalable full-stac
   <a href="https://github.com/muthusam-mvt/image-editing-desktop-app">
     <img src="./assets/project-image-editor.svg" width="830" alt="Image Editing Desktop Application Card" />
   </a>
-  <p align="right">
-    <a href="https://github.com/muthusam-mvt/image-editing-desktop-app">Repository</a> &nbsp;//&nbsp; 
+  <p align="center">
+    <a href="https://github.com/muthusam-mvt/image-editing-desktop-app">Repository</a> &nbsp;•&nbsp; 
     <a href="https://github.com/muthusam-mvt/image-editing-desktop-app">Live Demo</a>
   </p>
 </div>
 
 <br />
 
-<hr stroke="#222A26" />
+<hr stroke="#1E293B" />
 
-### <font color="#C8D3C5">LEADERSHIP</font>
+### <font color="#38BDF8">LEADERSHIP</font>
 
 <div align="center">
   <!-- Leadership Timeline SVG (Loaded at 1.2s delay) -->
@@ -170,9 +121,9 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#222A26" />
+<hr stroke="#1E293B" />
 
-### <font color="#D4C4AE">ACHIEVEMENTS</font>
+### <font color="#6366F1">ACHIEVEMENTS</font>
 
 <div align="center">
   <!-- Achievement Cards Row (Staggered at 1.4s, 1.6s, 1.8s delays) -->
@@ -183,37 +134,42 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#222A26" />
+<hr stroke="#1E293B" />
 
-### <font color="#F4F3EF">DASHBOARD STATS</font>
+### <font color="#38BDF8">DEVELOPER MILESTONES</font>
 
 <div align="center">
-  <!-- Custom Styled GitHub Stats Widgets (Nordic theme) -->
+  <!-- Custom Milestones Widget (Loaded at 1.9s delay) -->
+  <img src="./assets/milestones.svg" width="830" alt="Developer Milestones" />
+</div>
+
+<br />
+
+<hr stroke="#1E293B" />
+
+### <font color="#6366F1">DASHBOARD STATS</font>
+
+<div align="center">
+  <!-- Custom Styled GitHub Stats Widgets (Cyber-Minimal theme) -->
   <table width="100%">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=muthusam-mvt&show_icons=true&theme=dark&bg_color=121614&title_color=D4C4AE&text_color=F4F3EF&icon_color=C8D3C5&border_color=222A26" width="395" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=muthusam-mvt&show_icons=true&theme=dark&bg_color=080B10&title_color=38BDF8&text_color=FFFFFF&icon_color=6366F1&border_color=1E293B" width="395" alt="GitHub Stats" />
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muthusam-mvt&layout=compact&theme=dark&bg_color=121614&title_color=D4C4AE&text_color=F4F3EF&icon_color=C8D3C5&border_color=222A26" width="395" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muthusam-mvt&layout=compact&theme=dark&bg_color=080B10&title_color=38BDF8&text_color=FFFFFF&icon_color=6366F1&border_color=1E293B" width="395" alt="Top Languages" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
         <br />
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=muthusam-mvt&theme=dark&background=121614&fire=D4C4AE&ring=C8D3C5&currStreakNum=D4C4AE&currStreakLabel=F4F3EF&sideNums=F4F3EF&sideLabels=F4F3EF&dates=F4F3EF&border=222A26" width="800" alt="GitHub Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=muthusam-mvt&theme=dark&background=080B10&fire=38BDF8&ring=6366F1&currStreakNum=38BDF8&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=94A3B8&dates=94A3B8&border=1E293B" width="800" alt="GitHub Streak Stats" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
         <br />
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=muthusam-mvt&bg_color=121614&color=C8D3C5&line=D4C4AE&point=F4F3EF&area=true&hide_border=false&border_color=222A26" width="800" alt="GitHub Activity Graph" />
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <br />
-        <img src="https://github-profile-trophy.vercel.app/?username=muthusam-mvt&theme=darkhub&margin-w=15&margin-h=15&column=7&no-bg=true&no-frame=false" width="800" alt="GitHub Trophies" />
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=muthusam-mvt&bg_color=080B10&color=94A3B8&line=38BDF8&point=FFFFFF&area=true&hide_border=false&border_color=1E293B" width="800" alt="GitHub Activity Graph" />
       </td>
     </tr>
   </table>
@@ -221,7 +177,7 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#222A26" />
+<hr stroke="#1E293B" />
 
 <!-- Spotify Widget Placeholder (Commented Out)
 <div align="center">
@@ -231,10 +187,10 @@ I am a Computer Engineering student passionate about building scalable full-stac
   </a>
 </div>
 <br />
-<hr stroke="#222A26" />
+<hr stroke="#1E293B" />
 -->
 
-### <font color="#F4F3EF">CONNECT</font>
+### <font color="#38BDF8">CONNECT</font>
 
 <div align="center">
   <!-- Connect Cards Row (Loaded at 2.0s delay) -->
@@ -246,25 +202,22 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#222A26" />
-
-### <font color="#F4F3EF">FOOTER</font>
+<hr stroke="#1E293B" />
 
 <div align="center">
-  <p>Thanks for visiting.</p>
+  <p>Thanks for visiting!</p>
   <p><b>Let's build something amazing together.</b></p>
   
   <br />
   
-  <!-- Steve Jobs Quote (Premium static quote block) -->
   <blockquote>
     "Design is not just what it looks like and feels like. Design is how it works."
   </blockquote>
   
   <br />
 
-  <!-- Visitor Counter badge using Champagne Accent -->
-  <img src="https://komarev.com/ghpvc/?username=muthusam-mvt&color=d4c4ae&style=flat-square&label=Profile+Views" alt="Profile Views Counter" />
+  <!-- Visitor Counter badge using Sky Blue Accent -->
+  <img src="https://komarev.com/ghpvc/?username=muthusam-mvt&color=38bdf8&style=flat-square&label=Profile+Views" alt="Profile Views Counter" />
 </div>
 
 <br />

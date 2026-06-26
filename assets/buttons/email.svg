@@ -14,11 +14,12 @@
       }
       .btn-group:hover {
         transform: translateY(-2px);
-        filter: drop-shadow(0 4px 6px rgba(212, 196, 174, 0.25));
+        filter: drop-shadow(0 4px 6px rgba(56, 189, 248, 0.25));
       }
-      .bg { fill: #121614; stroke: #D4C4AE; stroke-width: 1.5; rx: 6px; }
-      .text { fill: #F4F3EF; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.5px; }
-      .icon { fill: #C8D3C5; }
+      .btn-group:hover .bg { stroke: #38BDF8; }
+      .bg { fill: #080B10; stroke: #1E293B; stroke-width: 1.5; rx: 6px; transition: stroke 0.3s; }
+      .text { fill: #FFFFFF; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.5px; }
+      .icon { fill: #38BDF8; }
     </style>
   </defs>
   <g class="btn-group">

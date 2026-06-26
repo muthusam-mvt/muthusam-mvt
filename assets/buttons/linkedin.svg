@@ -9,16 +9,17 @@
         opacity: 0;
         animation: slideUpFade 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
         animation-delay: 0.2s;
-        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s;
+        transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), filter 0.3s, stroke 0.3s;
         cursor: pointer;
       }
       .btn-group:hover {
         transform: translateY(-2px);
-        filter: drop-shadow(0 4px 6px rgba(212, 196, 174, 0.25));
+        filter: drop-shadow(0 4px 6px rgba(99, 102, 241, 0.25));
       }
-      .bg { fill: #121614; stroke: #D4C4AE; stroke-width: 1.5; rx: 6px; }
-      .text { fill: #F4F3EF; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.5px; }
-      .icon { fill: #C8D3C5; }
+      .btn-group:hover .bg { stroke: #6366F1; }
+      .bg { fill: #080B10; stroke: #1E293B; stroke-width: 1.5; rx: 6px; transition: stroke 0.3s; }
+      .text { fill: #FFFFFF; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.5px; }
+      .icon { fill: #6366F1; }
     </style>
   </defs>
   <g class="btn-group">
