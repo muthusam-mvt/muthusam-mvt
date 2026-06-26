@@ -1,16 +1,14 @@
 <!--
 ================================================================================
-PREMIUM GITHUB PROFILE README (CYBER-MINIMAL THEME)
+PREMIUM GITHUB PROFILE README (NORDIC MOSS & CHAMPAGNE THEME)
 Handcrafted by Antigravity (Google DeepMind)
 ================================================================================
 Color Palette Reference:
-- Background: #080B10 (Midnight Obsidian Void)
-- Elevated Card Fill: #0D1117 (Deep Vercel Slate)
-- Primary Accent: #38BDF8 (Sky Blue / Electric Cyan)
-- Secondary Accent: #6366F1 (Indigo Glow)
-- Muted Slate Borders: #1E293B (Low Opacity Border)
-- Text Primary: #FFFFFF (Alabaster White)
-- Text Secondary: #94A3B8 (Cool Slate)
+- Background: #121614 (Deep Forest Charcoal)
+- Text: #F4F3EF (Chalk White)
+- Primary Accent: #D4C4AE (Champagne Gold)
+- Secondary Accent: #C8D3C5 (Sage Green)
+- Muted Borders: #222A26 (Forest Slate)
 ================================================================================
 -->
 
@@ -32,17 +30,17 @@ Color Palette Reference:
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
-### <font color="#FFFFFF">INTRODUCTION</font>
+### <font color="#F4F3EF">INTRODUCTION</font>
 
 I am a Computer Engineering student passionate about building scalable full-stack applications, intuitive user experiences, and impactful student communities. I enjoy transforming ideas into real products using modern technologies while continuously learning new tools and frameworks. Alongside development, I actively mentor students, organize technical initiatives, and contribute to engineering communities.
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
-### <font color="#6366F1">ABOUT ME</font>
+### <font color="#C8D3C5">ABOUT ME</font>
 
 <div align="center">
   <!-- About Cards Row (Loaded at 0.3s delay) -->
@@ -54,9 +52,9 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
-### <font color="#38BDF8">TECH STACK</font>
+### <font color="#D4C4AE">TECH STACK</font>
 
 <br />
 
@@ -71,9 +69,9 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
-### <font color="#6366F1">FEATURED PROJECTS</font>
+### <font color="#C8D3C5">FEATURED PROJECTS</font>
 
 <div align="center">
   <!-- Project 1 (Loaded at 0.6s delay) -->
@@ -110,9 +108,9 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
-### <font color="#38BDF8">LEADERSHIP</font>
+### <font color="#C8D3C5">LEADERSHIP</font>
 
 <div align="center">
   <!-- Leadership Timeline SVG (Loaded at 1.2s delay) -->
@@ -121,9 +119,9 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
-### <font color="#6366F1">ACHIEVEMENTS</font>
+### <font color="#D4C4AE">ACHIEVEMENTS</font>
 
 <div align="center">
   <!-- Achievement Cards Row (Staggered at 1.4s, 1.6s, 1.8s delays) -->
@@ -134,9 +132,9 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
-### <font color="#38BDF8">DEVELOPER MILESTONES</font>
+### <font color="#C8D3C5">DEVELOPER MILESTONES</font>
 
 <div align="center">
   <!-- Custom Milestones Widget (Loaded at 1.9s delay) -->
@@ -145,31 +143,31 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
-### <font color="#6366F1">DASHBOARD STATS</font>
+### <font color="#F4F3EF">DASHBOARD STATS</font>
 
 <div align="center">
-  <!-- Custom Styled GitHub Stats Widgets (Cyber-Minimal theme) -->
+  <!-- Custom Styled GitHub Stats Widgets (Nordic theme) -->
   <table width="100%">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=muthusam-mvt&show_icons=true&theme=dark&bg_color=080B10&title_color=38BDF8&text_color=FFFFFF&icon_color=6366F1&border_color=1E293B" width="395" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=muthusam-mvt&show_icons=true&theme=dark&bg_color=121614&title_color=D4C4AE&text_color=F4F3EF&icon_color=C8D3C5&border_color=222A26" width="395" alt="GitHub Stats" />
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muthusam-mvt&layout=compact&theme=dark&bg_color=080B10&title_color=38BDF8&text_color=FFFFFF&icon_color=6366F1&border_color=1E293B" width="395" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muthusam-mvt&layout=compact&theme=dark&bg_color=121614&title_color=D4C4AE&text_color=F4F3EF&icon_color=C8D3C5&border_color=222A26" width="395" alt="Top Languages" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
         <br />
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=muthusam-mvt&theme=dark&background=080B10&fire=38BDF8&ring=6366F1&currStreakNum=38BDF8&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=94A3B8&dates=94A3B8&border=1E293B" width="800" alt="GitHub Streak Stats" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=muthusam-mvt&theme=dark&background=121614&fire=D4C4AE&ring=C8D3C5&currStreakNum=D4C4AE&currStreakLabel=F4F3EF&sideNums=F4F3EF&sideLabels=F4F3EF&dates=F4F3EF&border=222A26" width="800" alt="GitHub Streak Stats" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
         <br />
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=muthusam-mvt&bg_color=080B10&color=94A3B8&line=38BDF8&point=FFFFFF&area=true&hide_border=false&border_color=1E293B" width="800" alt="GitHub Activity Graph" />
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=muthusam-mvt&bg_color=121614&color=C8D3C5&line=D4C4AE&point=F4F3EF&area=true&hide_border=false&border_color=222A26" width="800" alt="GitHub Activity Graph" />
       </td>
     </tr>
   </table>
@@ -177,7 +175,7 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
 <!-- Spotify Widget Placeholder (Commented Out)
 <div align="center">
@@ -187,10 +185,10 @@ I am a Computer Engineering student passionate about building scalable full-stac
   </a>
 </div>
 <br />
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 -->
 
-### <font color="#38BDF8">CONNECT</font>
+### <font color="#F4F3EF">CONNECT</font>
 
 <div align="center">
   <!-- Connect Cards Row (Loaded at 2.0s delay) -->
@@ -202,7 +200,7 @@ I am a Computer Engineering student passionate about building scalable full-stac
 
 <br />
 
-<hr stroke="#1E293B" />
+<hr stroke="#222A26" />
 
 <div align="center">
   <p>Thanks for visiting!</p>
@@ -216,8 +214,8 @@ I am a Computer Engineering student passionate about building scalable full-stac
   
   <br />
 
-  <!-- Visitor Counter badge using Sky Blue Accent -->
-  <img src="https://komarev.com/ghpvc/?username=muthusam-mvt&color=38bdf8&style=flat-square&label=Profile+Views" alt="Profile Views Counter" />
+  <!-- Visitor Counter badge using Champagne Accent -->
+  <img src="https://komarev.com/ghpvc/?username=muthusam-mvt&color=d4c4ae&style=flat-square&label=Profile+Views" alt="Profile Views Counter" />
 </div>
 
 <br />

@@ -13,14 +13,14 @@
       }
       .card-container:hover {
         transform: translateY(-3px);
-        filter: drop-shadow(0 4px 8px rgba(0, 230, 114, 0.15));
+        filter: drop-shadow(0 4px 8px rgba(200, 211, 197, 0.12));
       }
       .card-container:hover .card {
-        stroke: #00E672;
+        stroke: #C8D3C5;
       }
       .card {
-        fill: #0D1117;
-        stroke: #1E293B;
+        fill: #19201C;
+        stroke: #222A26;
         stroke-width: 1.5;
         rx: 10px;
         transition: stroke 0.3s;
@@ -29,27 +29,27 @@
   </defs>
 
   <g class="card-container">
-    <!-- Background with Green Accent Border -->
+    <!-- Background with Sage Accent Border on Hover -->
     <rect width="260" height="130" class="card" />
 
-    <!-- Medal Icon (Vector) -->
+    <!-- Medal Icon (Vector) using Champagne Gold -->
     <g transform="translate(20, 20)">
-      <circle cx="10" cy="12" r="6" stroke="#00E672" stroke-width="1.5" fill="none"/>
-      <path d="M6 6 L10 0 L14 6" stroke="#00E672" stroke-width="1.5" stroke-linejoin="round"/>
+      <circle cx="10" cy="12" r="6" stroke="#D4C4AE" stroke-width="1.5" fill="none"/>
+      <path d="M6 6 L10 0 L14 6" stroke="#D4C4AE" stroke-width="1.5" stroke-linejoin="round"/>
     </g>
 
-    <!-- Year in Top Right -->
-    <text x="240" y="32" text-anchor="end" fill="#00E672" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">
+    <!-- Year in Top Right (Sage Green) -->
+    <text x="240" y="32" text-anchor="end" fill="#C8D3C5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="1">
       2025-26
     </text>
 
     <!-- Result Line 1 -->
-    <text x="20" y="76" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="-0.3px">
+    <text x="20" y="76" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="-0.3px">
       🚀 SIH 2025 — College Level
     </text>
 
     <!-- Result Line 2 -->
-    <text x="20" y="98" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
+    <text x="20" y="98" fill="#A0ADA4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500">
       💻 Participant — KJSIT INTECH
     </text>
   </g>

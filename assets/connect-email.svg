@@ -13,14 +13,14 @@
       }
       .card-container:hover {
         transform: translateY(-3px);
-        filter: drop-shadow(0 4px 8px rgba(99, 102, 241, 0.2));
+        filter: drop-shadow(0 4px 8px rgba(212, 196, 174, 0.12));
       }
       .card-container:hover .card {
-        stroke: #6366F1;
+        stroke: #D4C4AE;
       }
       .card {
-        fill: #0D1117;
-        stroke: #1E293B;
+        fill: #19201C;
+        stroke: #222A26;
         stroke-width: 1.5;
         rx: 10px;
         transition: stroke 0.3s;
@@ -29,21 +29,21 @@
   </defs>
 
   <g class="card-container">
-    <!-- Background with Slate Border -->
+    <!-- Deep Forest Charcoal Background Card -->
     <rect width="185" height="100" class="card" />
 
-    <!-- Email Icon -->
+    <!-- Email Icon (Sage Green) -->
     <g transform="translate(20, 20)">
-      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#6366F1" />
+      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#C8D3C5" />
     </g>
 
-    <!-- Title -->
-    <text x="20" y="65" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5px">
+    <!-- Title (Chalk White) -->
+    <text x="20" y="65" fill="#F4F3EF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" letter-spacing="0.5px">
       EMAIL
     </text>
 
-    <!-- Handle -->
-    <text x="20" y="82" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="400">
+    <!-- Handle (Muted Sage Green) -->
+    <text x="20" y="82" fill="#A0ADA4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="9" font-weight="400">
       muthusamthevar@gmail.com
     </text>
   </g>
